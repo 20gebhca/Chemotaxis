@@ -41,7 +41,6 @@ void mousePressed() {
   for (Bacteria b : myBacteria) {
     if ( b.x >20 && b.y > 20) {
       bias+=1;
-      System.out.println("ayyy");
     }
     else{
       bias=3;
@@ -51,7 +50,6 @@ void mousePressed() {
 //mouse released to stop movement
 void mouseReleased() {
   bias=3;
-  System.out.println("ufwhb");
 }
 //call functions from the classes to draw the bacteria
 void draw() {
